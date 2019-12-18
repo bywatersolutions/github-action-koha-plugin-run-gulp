@@ -1,0 +1,5 @@
+name: 'Koha Plugin Gulpfile runner'
+description: 'Runs "gulp build" for your Koha plugin if a gulpfile is present'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
